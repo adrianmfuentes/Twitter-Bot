@@ -3,3 +3,13 @@ venv/
 ENV/
 env/
 .venv/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# Secrets and local data
+.env
+logs/
